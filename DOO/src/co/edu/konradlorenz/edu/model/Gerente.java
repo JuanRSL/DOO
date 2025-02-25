@@ -13,4 +13,20 @@ public class Gerente extends Empleado {
         this.departamento = departamento;
     }
 
+    public String getAreaCargo() {
+        return areaCargo;
+    }
+
+    public void setAreaCargo(String areaCargo) {
+        this.areaCargo = areaCargo;
+    }
+
+    public String getDepartamento() {
+        return departamento;
+    }
+
+    public void setDepartamento(String departamento) {
+        this.departamento = departamento;
+    }
+
 }
